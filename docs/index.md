@@ -1,13 +1,23 @@
-# Welcome to MkDocs
+# Discover the word
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Discover the word is my personal project of a minigame
+made with [Python](https://www.python.org/) and [Django](https://www.djangoproject.com/) framework.
 
-## Commands
+I created this game was to improve my django and python abilities. Is a simple game
+but I learned several thinks with this project.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## The game
+
+The game start in initial screen:
+
+![Initial screen](./assets/initial_page.png)
+
+---
+
+Once game started, the player is redirected to game screen, where needs to discover the word. The game give hint about words.
+
+![Initial screen](./assets/game_page.png)
+
 
 ## Project layout
 

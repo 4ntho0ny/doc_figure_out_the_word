@@ -1,8 +1,30 @@
 site_name: Discover the word
 theme: 
   name: material
+  font:
+    text: Ubuntu
+  language: en
+  palette:
+    - media:
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media:
+      scheme: slate
+      toogle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  features:
+    - navigation.tabs
 nav:
   - About the game: index.md
   - Frontend: frontend.md
   - Logic structure of game: logic.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/4ntho0ny
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/anthony-chendrik-13b81a264/?originalSubdomain=br
 
