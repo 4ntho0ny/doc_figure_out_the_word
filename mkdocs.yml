@@ -1,3 +1,8 @@
-site_name: My Docs
+site_name: Discover the word
 theme: 
   name: material
+nav:
+  - About the game: index.md
+  - Frontend: frontend.md
+  - Logic structure of game: logic.md
+
