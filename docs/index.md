@@ -18,6 +18,7 @@ Once game started, the player is redirected to game screen, where needs to disco
 
 ![Initial screen](./assets/game_page.png)
 
+---
 
 ## Project layout
 
