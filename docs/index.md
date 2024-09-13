@@ -20,9 +20,20 @@ Once game started, the player is redirected to game screen, where needs to disco
 
 ---
 
+A warning is show if the player give wrong answer:
+
+![Wrong answer]
+
+```py
+def whatever():
+    return None
+```
+
 ## Project layout
 
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
+
+## Custom fences

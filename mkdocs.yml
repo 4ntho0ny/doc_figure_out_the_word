@@ -1,22 +1,23 @@
 site_name: Discover the word
+markdown_extensions: 
+  - pymdownx.highlight
+  - pymdownx.superfences
 theme: 
   name: material
   font:
     text: Ubuntu
   language: en
   palette:
-    - media:
-      scheme: default
+    - scheme: default
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - media:
-      scheme: slate
-      toogle:
-        icon: material/brightness-7
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
         name: Switch to light mode
-  features:
-    - navigation.tabs
+  # features:
+  #   - navigation.tabs
 nav:
   - About the game: index.md
   - Frontend: frontend.md
