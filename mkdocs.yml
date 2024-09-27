@@ -1,7 +1,9 @@
 site_name: Discover the word
+
 markdown_extensions: 
   - pymdownx.highlight
   - pymdownx.superfences
+
 theme: 
   name: material
   font:
@@ -18,10 +20,12 @@ theme:
         name: Switch to light mode
   # features:
   #   - navigation.tabs
+
 nav:
   - About the game: index.md
   - Frontend: frontend.md
-  - Logic structure of game: logic.md
+  - Programming Logic of the game: logic.md
+
 extra:
   social:
     - icon: fontawesome/brands/github
